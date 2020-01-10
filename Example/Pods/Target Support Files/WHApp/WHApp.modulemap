@@ -1,0 +1,6 @@
+framework module WHApp {
+  umbrella header "WHApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
