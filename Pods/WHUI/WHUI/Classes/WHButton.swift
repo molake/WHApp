@@ -8,7 +8,7 @@
 
 import UIKit
 
-class WHButton: UIView {
+open class WHButton: UIView {
 
     /*
     // Only override draw() if you perform custom drawing.
@@ -18,4 +18,12 @@ class WHButton: UIView {
     }
     */
 
+}
+
+public class WHView: UIView {
+    
+}
+
+public class WHLabel: UILabel {
+    
 }

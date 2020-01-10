@@ -1,16 +1,20 @@
 PODS:
-  - WHUI (0.2.0)
+  - WHSearch (0.1.0)
+  - WHUI (0.4.0)
 
 DEPENDENCIES:
-  - WHUI (= 0.2.0)
+  - WHSearch (= 0.1.0)
+  - WHUI (= 0.4.0)
 
 SPEC REPOS:
   https://github.com/remember17/WHPodSpec.git:
+    - WHSearch
     - WHUI
 
 SPEC CHECKSUMS:
-  WHUI: b194d51661df4177ed9ba2b650127dcb5135164b
+  WHSearch: 96dd52c442d48e4aa54511d785c15972e8a8f72c
+  WHUI: b3387de61ce34c9dc103176e33ad3a64a09faa51
 
-PODFILE CHECKSUM: 4685b68a40392567bb12af7d5940bc087e3e1994
+PODFILE CHECKSUM: 37c350b7f5cde1c30c41e85086b2325981d9336c
 
 COCOAPODS: 1.8.4

@@ -8,6 +8,7 @@
 
 import UIKit
 import WHUI
+import WHSearch
 
 class ViewController: UIViewController {
 
