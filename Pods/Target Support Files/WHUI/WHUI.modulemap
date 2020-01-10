@@ -1,0 +1,6 @@
+framework module WHUI {
+  umbrella header "WHUI-umbrella.h"
+
+  export *
+  module * { export * }
+}
