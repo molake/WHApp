@@ -4,12 +4,15 @@
 source 'https://github.com/remember17/WHPodSpec.git'
 source 'https://github.com/CocoaPods/Specs.git'
 
+install! 'cocoapods', :disable_input_output_paths => true
+
 target 'WHApp' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
   # Pods for WHApp
 
-  pod 'WHSearch', '0.5.1'
+#  pod 'WHSearch', :path => '../WHSearch'
+  pod 'WHSearch', '0.5.3'
   
 end

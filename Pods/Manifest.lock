@@ -1,12 +1,12 @@
 PODS:
   - PanModal (1.2.5)
-  - WHSearch (0.5.1):
+  - WHSearch (0.5.3):
     - WHUI (~> 0.5.1)
   - WHUI (0.5.1):
     - PanModal
 
 DEPENDENCIES:
-  - WHSearch (= 0.5.1)
+  - WHSearch (= 0.5.3)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -17,9 +17,9 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   PanModal: 7c5af3ad4fe22b91508040965bebffb89fb607ae
-  WHSearch: dcf8a64af05ac9f09d6d575ab6badc70b9668f91
+  WHSearch: 5706ca659070248d74c8d4e1e15bc223dfa72120
   WHUI: 178cc8eb222a119139947d05a52df16d0a96ef2f
 
-PODFILE CHECKSUM: 1c5d3bf2428e7ea229d33098306724c1d51d2337
+PODFILE CHECKSUM: eaf34681f8c4c1d0c9a72893de8cff95237fa072
 
 COCOAPODS: 1.8.4

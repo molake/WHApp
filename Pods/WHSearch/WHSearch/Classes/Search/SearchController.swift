@@ -20,6 +20,8 @@ public class SearchController: UIViewController {
     
     override public func viewDidLoad() {
         super.viewDidLoad()
+        // just for some test
+        // hahah
         view.backgroundColor = UIColor.white
         view.addSubview(testView)
     }
