@@ -10,6 +10,6 @@ target 'WHApp' do
 
   # Pods for WHApp
   pod 'WHUI', '0.5.1'
-  pod 'WHSearch', '0.3.0'
+  pod 'WHSearch', '0.5.0'
   
 end
