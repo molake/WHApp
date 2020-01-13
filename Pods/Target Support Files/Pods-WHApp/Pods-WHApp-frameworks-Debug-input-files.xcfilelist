@@ -1,3 +1,4 @@
 ${PODS_ROOT}/Target Support Files/Pods-WHApp/Pods-WHApp-frameworks.sh
+${BUILT_PRODUCTS_DIR}/PanModal/PanModal.framework
 ${BUILT_PRODUCTS_DIR}/WHSearch/WHSearch.framework
 ${BUILT_PRODUCTS_DIR}/WHUI/WHUI.framework

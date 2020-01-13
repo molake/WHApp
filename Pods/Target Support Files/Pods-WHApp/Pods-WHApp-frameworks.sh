@@ -161,10 +161,12 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/PanModal/PanModal.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/WHSearch/WHSearch.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/WHUI/WHUI.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/PanModal/PanModal.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/WHSearch/WHSearch.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/WHUI/WHUI.framework"
 fi
