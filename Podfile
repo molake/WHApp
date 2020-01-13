@@ -13,6 +13,6 @@ target 'WHApp' do
   # Pods for WHApp
 
 #  pod 'WHSearch', :path => '../WHSearch'
-  pod 'WHSearch', '0.5.3'
+  pod 'WHSearch', '0.5.5'
   
 end

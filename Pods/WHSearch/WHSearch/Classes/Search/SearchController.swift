@@ -10,6 +10,7 @@ import WHUI
 
 public class SearchController: UIViewController {
 
+    // test
     lazy var testView: WHView = {
         let test = WHView()
         test.backgroundColor = UIColor.blue
