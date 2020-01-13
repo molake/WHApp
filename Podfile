@@ -9,7 +9,7 @@ target 'WHApp' do
   use_frameworks!
 
   # Pods for WHApp
-  pod 'WHUI', '0.5.1'
-  pod 'WHSearch', '0.5.0'
+
+  pod 'WHSearch', '0.5.1'
   
 end

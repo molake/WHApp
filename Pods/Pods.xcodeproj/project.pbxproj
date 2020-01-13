@@ -7,38 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2E429C92AE2DC78C28DA149D8A1B1514 /* PanContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FA1CD5F932938B712BEEB90B76C368 /* PanContainerView.swift */; };
+		19332C1C33D064A79C8BB87BADF38F75 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D00B56D569C6099FD513A921F758E608 /* UIKit.framework */; };
+		1E30D55BDA3972780D290EDBDC97ABEA /* WHSearch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CAEFE03CCBB3A447A6ADB7B9515F371 /* WHSearch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EB35C4E7E8D2EBA4BB61C51C13AC094 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1470D2C18F93D1B22C26B89A12F1BFA3 /* Foundation.framework */; };
+		2E429C92AE2DC78C28DA149D8A1B1514 /* PanContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF45D43AFCE67E8CBAF42B695F3D7B2 /* PanContainerView.swift */; };
 		36730230F0155836AF793194F7BEF702 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1470D2C18F93D1B22C26B89A12F1BFA3 /* Foundation.framework */; };
-		3DB448A3E9B64E934BC76FE0FC7621FE /* PanModalPresentationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FAE4789B68B6D1253DB3D45E43C260 /* PanModalPresentationDelegate.swift */; };
-		4568EDD1163363300EAC0BA60D5CD7AB /* DimmedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6E4B6A0E38D241C4F24BAE0A4E2410 /* DimmedView.swift */; };
-		45CF72ED3BCD237B440ACB19851A589A /* PanModalHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9430084201B4090DBC4B2647F3B9C3 /* PanModalHeight.swift */; };
+		3DB448A3E9B64E934BC76FE0FC7621FE /* PanModalPresentationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8308749D6A44FF3B518EB8D572DFA7D /* PanModalPresentationDelegate.swift */; };
+		4568EDD1163363300EAC0BA60D5CD7AB /* DimmedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90B9B107EC9E9DA4B4CFE1337CA2C82 /* DimmedView.swift */; };
+		45CF72ED3BCD237B440ACB19851A589A /* PanModalHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC171D4896A9EBF179B2F328271F170 /* PanModalHeight.swift */; };
+		47FC0E97D67D93F913A9E7B4DD16A95E /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20522BF737AF9430451777C81A79B7A /* SearchController.swift */; };
+		4DF12D8D673EF5658A1092B888E6F001 /* PanModal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 373E60AF73839EC4CEEC5150E87DB46D /* PanModal.framework */; };
+		521E3F514A0BA67256A38EEBFCD8B479 /* SearchController.xib in Sources */ = {isa = PBXBuildFile; fileRef = EFEBDBDA09BC537E1CD674565ECDAD27 /* SearchController.xib */; };
 		588CBED0C257339247BD8E50D6FC16DA /* Pods-WHApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39820649A9475F7299C00C4C3242E9D4 /* Pods-WHApp-dummy.m */; };
-		5D55EB3EC082E70D15B02C607CF6440E /* PanModalPresentationAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD555A8D06C2FA7610DE0A566154F1B /* PanModalPresentationAnimator.swift */; };
-		5F993C908F6B53E426292A981F1BDE5F /* WHSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD8A45A9443A48E709C35306341D6F9 /* WHSearch.swift */; };
+		5D55EB3EC082E70D15B02C607CF6440E /* PanModalPresentationAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DB3AF074CB38C9C96A942F60DA6B66 /* PanModalPresentationAnimator.swift */; };
 		60512FB6EBA28F8756E32EB1FA9B16CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1470D2C18F93D1B22C26B89A12F1BFA3 /* Foundation.framework */; };
-		677643F6C13A3C476E12AD2C20D0EC19 /* PanModal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 373E60AF73839EC4CEEC5150E87DB46D /* PanModal.framework */; };
-		6A88FBA7BC5D3D69E315F9AE2E0DEE3B /* PanModalPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B0F259D688696CC4882015E8B160A3 /* PanModalPresenter.swift */; };
-		711486B0AF59580C2D2FB31680A2B172 /* WHSearch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6ED439FE50639F643FD1EF9D452EE37 /* WHSearch-dummy.m */; };
-		80212493C474B326F66876261FA57C65 /* UIViewController+PanModalPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2784DD758AE3834EF4C49FEF3C3145 /* UIViewController+PanModalPresenter.swift */; };
-		8098DAF576BD71BF8514ECF921F96AA3 /* PanModalPresentable+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CB7ED6B81314D146CD6F42D8970EAE /* PanModalPresentable+UIViewController.swift */; };
-		83444168FD31011F7217EFA2684AE936 /* PanModalAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670856D0CA78716B71B1AA69E6C353E8 /* PanModalAnimator.swift */; };
-		843BB7F29F9D57B159A70B27F6DAB597 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1143CE074F85D8C4241DA1BADF3D377E /* MapKit.framework */; };
-		93C1556DDAED08BE604B2B685155F553 /* PanModalPresentable+LayoutHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D441305F5CE7F280FDE0BFCCF278E27 /* PanModalPresentable+LayoutHelpers.swift */; };
-		9BEB80C051F3E853A46266D8774F3547 /* WHSearch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99E2BDA5B1EAFD6C57B041D122D047E8 /* WHSearch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A9A26FDA98F0FFC32C4F932C8D13A872 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D00B56D569C6099FD513A921F758E608 /* UIKit.framework */; };
-		B24F086F00AF3C82E0215860EF82B3D1 /* WHUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98FC60AD53EC104B825E499FC4F99F45 /* WHUI.framework */; };
-		B46152373E6CBC6791AAE85205C33F98 /* PanModalPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36A626BC9F364B69F9E62EA0CF892DE /* PanModalPresentable.swift */; };
-		BD030684DB491453C175AA7F99C5DE13 /* PanModal.h in Headers */ = {isa = PBXBuildFile; fileRef = 22427FA9B1B03E6C8845EF9CF963F0B4 /* PanModal.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CE268B0C951B2E28603EFA7C853FF0F2 /* WHButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F384DB01AE4DA5E8CF5B754C05416A1 /* WHButton.swift */; };
-		D1F413745F02F75C0D42753DCB9D79BC /* PanModalPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0DF99CD5D5083942D862232EC49090 /* PanModalPresentationController.swift */; };
+		6A88FBA7BC5D3D69E315F9AE2E0DEE3B /* PanModalPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B07252219A200C3DCB8ED21DE152157 /* PanModalPresenter.swift */; };
+		80212493C474B326F66876261FA57C65 /* UIViewController+PanModalPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20193CEDC899709F02B2B22EE91ED615 /* UIViewController+PanModalPresenter.swift */; };
+		8098DAF576BD71BF8514ECF921F96AA3 /* PanModalPresentable+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89B20E06E3C90E934738B21BC800B44 /* PanModalPresentable+UIViewController.swift */; };
+		83444168FD31011F7217EFA2684AE936 /* PanModalAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF2824B4FC115BBACDF74A90C3320CE /* PanModalAnimator.swift */; };
+		93C1556DDAED08BE604B2B685155F553 /* PanModalPresentable+LayoutHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334F9F5D07E50391FC2CE0279E2D00AC /* PanModalPresentable+LayoutHelpers.swift */; };
+		9A561E2A96CB8B56F2C4F21C561BF2F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1470D2C18F93D1B22C26B89A12F1BFA3 /* Foundation.framework */; };
+		A12DCE0CA7CBDAF9C660FD735B2A8CBA /* WHUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE9182070BF7809315B83290D1E0DF75 /* WHUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4026F8AADCB710B99C422653E836091 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2261844840D86099B68F00354C3ABA /* SearchViewModel.swift */; };
+		B23248AB4C24BAABD34694F6448F5253 /* WHUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 608DEB23E391606374513E6371FEF2C7 /* WHUI-dummy.m */; };
+		B46152373E6CBC6791AAE85205C33F98 /* PanModalPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B33542C0C41209D34D6B9FF363BD14C /* PanModalPresentable.swift */; };
+		BC4231E66A02743F0C77BF63097A8F95 /* WHButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B347E240D439337EBCD132E3A5D57A5 /* WHButton.swift */; };
+		BD030684DB491453C175AA7F99C5DE13 /* PanModal.h in Headers */ = {isa = PBXBuildFile; fileRef = 43C27AB3596FC1A3ADF309D1137A3B9D /* PanModal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0B5D4C81D8025A06F4C68F074B4E3C9 /* WHUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98FC60AD53EC104B825E499FC4F99F45 /* WHUI.framework */; };
+		D0D90208A23F57E86A84169F0139A49A /* WHSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BEFEBF99B8DA60D06721B51C5BEBBA /* WHSearch.swift */; };
+		D1F413745F02F75C0D42753DCB9D79BC /* PanModalPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2E966B9714E4E30F526059533804FA /* PanModalPresentationController.swift */; };
+		D4908D4A355022889645CE26D9DE6267 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1143CE074F85D8C4241DA1BADF3D377E /* MapKit.framework */; };
 		D88B31862AEF76006C2B0BD1BABE0C53 /* Pods-WHApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C644AFBA4AC30C5F38482365DF231749 /* Pods-WHApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DBCABF126433715D8AB9C2A98603BEAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1470D2C18F93D1B22C26B89A12F1BFA3 /* Foundation.framework */; };
-		DC1A70CACD0B2ACA2A3FAA5EF320C15B /* PanModal-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F7F14D7055DB7EC694E9877E1D74C5BA /* PanModal-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DCDCFECA6BA48B8EC6AAE0C6976931C7 /* WHUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A127A6296EEFACAD0D900F1E305EA36A /* WHUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E4A155872BC1A8DA89FD263D15FCC394 /* WHUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A23A7B88FE5F2691FC66EF578847A778 /* WHUI-dummy.m */; };
-		F2021C557BAABC303255C299C768CBA8 /* PanModal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A44F6FB4FAF445CB534B383263399FDC /* PanModal-dummy.m */; };
-		F87BF668A74FAF0D05C057C5033DF52F /* PanModalPresentable+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4678F3C8B060986E86969A6DD6B654EC /* PanModalPresentable+Defaults.swift */; };
-		F90A55C079D266D2BE65E4EC4A702C19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1470D2C18F93D1B22C26B89A12F1BFA3 /* Foundation.framework */; };
+		D9F75A106975A1C3998B8BC45A655D51 /* WHSearch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A098685DF57C0F819FC63A69881E37 /* WHSearch-dummy.m */; };
+		DC1A70CACD0B2ACA2A3FAA5EF320C15B /* PanModal-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C19B492D586DD77D4712618808AB813 /* PanModal-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2021C557BAABC303255C299C768CBA8 /* PanModal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD981BAE0CBFB62658BB913DD04C577 /* PanModal-dummy.m */; };
+		F87BF668A74FAF0D05C057C5033DF52F /* PanModalPresentable+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D25ACE88A2C66A9655B79BEBA1F969 /* PanModalPresentable+Defaults.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,13 @@
 			remoteGlobalIDString = 322000C73F55E05AB1F9F7C2C7D7DB2C;
 			remoteInfo = WHSearch;
 		};
+		317D6780483BB3CBE5E3CCC0998871DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD16B149CC82594F15860A512FDBB6B9;
+			remoteInfo = PanModal;
+		};
 		4589417647BBDAAEE2B6C5E3B15E99D3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -56,14 +66,7 @@
 			remoteGlobalIDString = 9AEE194486615C2E505B55C0252357A3;
 			remoteInfo = WHUI;
 		};
-		A235189CD3D42CDF8F367B8CB536C885 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AD16B149CC82594F15860A512FDBB6B9;
-			remoteInfo = PanModal;
-		};
-		B76D84730ECCAA3BCE50CB2AE9737FA6 /* PBXContainerItemProxy */ = {
+		67CFEF9D31ABA4973D78BD0122E08CFD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -80,79 +83,71 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05C79BB00B730D7FE05A0C1A1F44CB9A /* WHUI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WHUI.xcconfig; sourceTree = "<group>"; };
+		08D1BC0CE77B400703B353EEE16F1239 /* WHUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WHUI-prefix.pch"; sourceTree = "<group>"; };
+		09DA1A5DE87444D169D7D6E6A0FB8D85 /* WHUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WHUI-Info.plist"; sourceTree = "<group>"; };
+		0C2E966B9714E4E30F526059533804FA /* PanModalPresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PanModalPresentationController.swift; path = PanModal/Controller/PanModalPresentationController.swift; sourceTree = "<group>"; };
 		1143CE074F85D8C4241DA1BADF3D377E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
 		1470D2C18F93D1B22C26B89A12F1BFA3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		15B08C08969EA617071A289E2C03B207 /* Pods-WHApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WHApp.release.xcconfig"; sourceTree = "<group>"; };
 		161277983660BBB6908A635083708CFB /* PanModal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PanModal.framework; path = PanModal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1939C8B896272DA4F9103AB5F3101636 /* Pods-WHApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WHApp.modulemap"; sourceTree = "<group>"; };
 		1ADEAE7362BEEE1506066CEEF9F42835 /* Pods-WHApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WHApp-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1F384DB01AE4DA5E8CF5B754C05416A1 /* WHButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WHButton.swift; path = WHUI/Classes/WHButton.swift; sourceTree = "<group>"; };
+		1AF45D43AFCE67E8CBAF42B695F3D7B2 /* PanContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PanContainerView.swift; path = PanModal/View/PanContainerView.swift; sourceTree = "<group>"; };
+		20193CEDC899709F02B2B22EE91ED615 /* UIViewController+PanModalPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+PanModalPresenter.swift"; path = "PanModal/Presenter/UIViewController+PanModalPresenter.swift"; sourceTree = "<group>"; };
 		20EE4797F9333AC319E670C5C9DB7F75 /* Pods_WHApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WHApp.framework; path = "Pods-WHApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		22427FA9B1B03E6C8845EF9CF963F0B4 /* PanModal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PanModal.h; path = PanModal/PanModal.h; sourceTree = "<group>"; };
-		2CD555A8D06C2FA7610DE0A566154F1B /* PanModalPresentationAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PanModalPresentationAnimator.swift; path = PanModal/Animator/PanModalPresentationAnimator.swift; sourceTree = "<group>"; };
-		2E2784DD758AE3834EF4C49FEF3C3145 /* UIViewController+PanModalPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+PanModalPresenter.swift"; path = "PanModal/Presenter/UIViewController+PanModalPresenter.swift"; sourceTree = "<group>"; };
-		33555B0AD9F9B836FFA4D9305FA5E0DD /* PanModal-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PanModal-prefix.pch"; sourceTree = "<group>"; };
-		36B0F259D688696CC4882015E8B160A3 /* PanModalPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PanModalPresenter.swift; path = PanModal/Presenter/PanModalPresenter.swift; sourceTree = "<group>"; };
+		27D25ACE88A2C66A9655B79BEBA1F969 /* PanModalPresentable+Defaults.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PanModalPresentable+Defaults.swift"; path = "PanModal/Presentable/PanModalPresentable+Defaults.swift"; sourceTree = "<group>"; };
+		2EF2824B4FC115BBACDF74A90C3320CE /* PanModalAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PanModalAnimator.swift; path = PanModal/Animator/PanModalAnimator.swift; sourceTree = "<group>"; };
+		334F9F5D07E50391FC2CE0279E2D00AC /* PanModalPresentable+LayoutHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PanModalPresentable+LayoutHelpers.swift"; path = "PanModal/Presentable/PanModalPresentable+LayoutHelpers.swift"; sourceTree = "<group>"; };
 		373E60AF73839EC4CEEC5150E87DB46D /* PanModal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PanModal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		39820649A9475F7299C00C4C3242E9D4 /* Pods-WHApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WHApp-dummy.m"; sourceTree = "<group>"; };
-		3BD8A45A9443A48E709C35306341D6F9 /* WHSearch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WHSearch.swift; path = WHSearch/Classes/WHSearch.swift; sourceTree = "<group>"; };
-		3D441305F5CE7F280FDE0BFCCF278E27 /* PanModalPresentable+LayoutHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PanModalPresentable+LayoutHelpers.swift"; path = "PanModal/Presentable/PanModalPresentable+LayoutHelpers.swift"; sourceTree = "<group>"; };
-		3F1D69356E16F31F01BA41B61951E8E7 /* WHSearch-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WHSearch-Info.plist"; sourceTree = "<group>"; };
+		3B347E240D439337EBCD132E3A5D57A5 /* WHButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WHButton.swift; path = WHUI/Classes/WHButton.swift; sourceTree = "<group>"; };
+		3C2261844840D86099B68F00354C3ABA /* SearchViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchViewModel.swift; path = WHSearch/Classes/Search/SearchViewModel.swift; sourceTree = "<group>"; };
+		43C27AB3596FC1A3ADF309D1137A3B9D /* PanModal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PanModal.h; path = PanModal/PanModal.h; sourceTree = "<group>"; };
 		465BB40FECDB01F4E5B5B9DA3F2E43B6 /* Pods-WHApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WHApp-Info.plist"; sourceTree = "<group>"; };
-		4678F3C8B060986E86969A6DD6B654EC /* PanModalPresentable+Defaults.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PanModalPresentable+Defaults.swift"; path = "PanModal/Presentable/PanModalPresentable+Defaults.swift"; sourceTree = "<group>"; };
 		47A0CF42FC03E3B1F1938928F3253654 /* WHUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WHUI.framework; path = WHUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C0DF99CD5D5083942D862232EC49090 /* PanModalPresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PanModalPresentationController.swift; path = PanModal/Controller/PanModalPresentationController.swift; sourceTree = "<group>"; };
+		4870DECBA8C8AF5444712D46F6D2EE10 /* PanModal.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PanModal.xcconfig; sourceTree = "<group>"; };
+		4B4C4145EBC2A531EF1C9D403F844756 /* PanModal.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PanModal.modulemap; sourceTree = "<group>"; };
 		4F876F2843DC26A3787560CE45F6198C /* WHSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WHSearch.framework; path = WHSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B07252219A200C3DCB8ED21DE152157 /* PanModalPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PanModalPresenter.swift; path = PanModal/Presenter/PanModalPresenter.swift; sourceTree = "<group>"; };
+		608DEB23E391606374513E6371FEF2C7 /* WHUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WHUI-dummy.m"; sourceTree = "<group>"; };
+		6196B64CC2EDC3A2E839B541A95F795E /* WHSearch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WHSearch.modulemap; sourceTree = "<group>"; };
+		631832532890027A42DE9DAEA85D49C4 /* WHSearch.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WHSearch.xcconfig; sourceTree = "<group>"; };
 		639B189373B47A4E3D2DC6AA0602E924 /* Pods-WHApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WHApp.debug.xcconfig"; sourceTree = "<group>"; };
-		653F1FFBE9B2640F5C8122EA010EEDE9 /* PanModal-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PanModal-Info.plist"; sourceTree = "<group>"; };
-		670856D0CA78716B71B1AA69E6C353E8 /* PanModalAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PanModalAnimator.swift; path = PanModal/Animator/PanModalAnimator.swift; sourceTree = "<group>"; };
-		6F6E4B6A0E38D241C4F24BAE0A4E2410 /* DimmedView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DimmedView.swift; path = PanModal/View/DimmedView.swift; sourceTree = "<group>"; };
+		6CAEFE03CCBB3A447A6ADB7B9515F371 /* WHSearch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WHSearch-umbrella.h"; sourceTree = "<group>"; };
 		74F0D1F5651DE5384F23E39622F73E6F /* Pods-WHApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WHApp-frameworks.sh"; sourceTree = "<group>"; };
-		89CB7ED6B81314D146CD6F42D8970EAE /* PanModalPresentable+UIViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PanModalPresentable+UIViewController.swift"; path = "PanModal/Presentable/PanModalPresentable+UIViewController.swift"; sourceTree = "<group>"; };
+		7B883FAF097E1F10614A619B68361AC1 /* WHSearch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WHSearch-prefix.pch"; sourceTree = "<group>"; };
 		98FC60AD53EC104B825E499FC4F99F45 /* WHUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WHUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		99E2BDA5B1EAFD6C57B041D122D047E8 /* WHSearch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WHSearch-umbrella.h"; sourceTree = "<group>"; };
-		9D3D7F89323D5A4A95F43A2B9F2414D2 /* PanModal.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PanModal.xcconfig; sourceTree = "<group>"; };
+		9A4DF193347EC64D8FCEB7C1A979C1A9 /* PanModal-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PanModal-prefix.pch"; sourceTree = "<group>"; };
+		9B33542C0C41209D34D6B9FF363BD14C /* PanModalPresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PanModalPresentable.swift; path = PanModal/Presentable/PanModalPresentable.swift; sourceTree = "<group>"; };
+		9C19B492D586DD77D4712618808AB813 /* PanModal-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PanModal-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A127A6296EEFACAD0D900F1E305EA36A /* WHUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WHUI-umbrella.h"; sourceTree = "<group>"; };
-		A195E9B290363B9893385CA4C102E442 /* WHSearch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WHSearch.modulemap; sourceTree = "<group>"; };
-		A23A7B88FE5F2691FC66EF578847A778 /* WHUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WHUI-dummy.m"; sourceTree = "<group>"; };
-		A44F6FB4FAF445CB534B383263399FDC /* PanModal-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PanModal-dummy.m"; sourceTree = "<group>"; };
-		A717598B73764C5DC8908DE78026DC97 /* WHUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WHUI-prefix.pch"; sourceTree = "<group>"; };
-		B6ED439FE50639F643FD1EF9D452EE37 /* WHSearch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WHSearch-dummy.m"; sourceTree = "<group>"; };
-		B8D00E1DF884A26EA349F01F2F5D95EB /* WHUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WHUI.modulemap; sourceTree = "<group>"; };
-		BC89DC8A87AA5B3861909BC46C2F3176 /* WHSearch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WHSearch-prefix.pch"; sourceTree = "<group>"; };
-		C36A626BC9F364B69F9E62EA0CF892DE /* PanModalPresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PanModalPresentable.swift; path = PanModal/Presentable/PanModalPresentable.swift; sourceTree = "<group>"; };
+		B90B9B107EC9E9DA4B4CFE1337CA2C82 /* DimmedView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DimmedView.swift; path = PanModal/View/DimmedView.swift; sourceTree = "<group>"; };
+		BEC171D4896A9EBF179B2F328271F170 /* PanModalHeight.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PanModalHeight.swift; path = PanModal/Presentable/PanModalHeight.swift; sourceTree = "<group>"; };
+		C20522BF737AF9430451777C81A79B7A /* SearchController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchController.swift; path = WHSearch/Classes/Search/SearchController.swift; sourceTree = "<group>"; };
+		C4BEFEBF99B8DA60D06721B51C5BEBBA /* WHSearch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WHSearch.swift; path = WHSearch/Classes/WHSearch.swift; sourceTree = "<group>"; };
 		C644AFBA4AC30C5F38482365DF231749 /* Pods-WHApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WHApp-umbrella.h"; sourceTree = "<group>"; };
 		D00B56D569C6099FD513A921F758E608 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		D4FAE4789B68B6D1253DB3D45E43C260 /* PanModalPresentationDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PanModalPresentationDelegate.swift; path = PanModal/Delegate/PanModalPresentationDelegate.swift; sourceTree = "<group>"; };
-		D705B089433F7B239A2548B9FE042CA5 /* PanModal.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PanModal.modulemap; sourceTree = "<group>"; };
-		E2FA1CD5F932938B712BEEB90B76C368 /* PanContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PanContainerView.swift; path = PanModal/View/PanContainerView.swift; sourceTree = "<group>"; };
+		D2DB3AF074CB38C9C96A942F60DA6B66 /* PanModalPresentationAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PanModalPresentationAnimator.swift; path = PanModal/Animator/PanModalPresentationAnimator.swift; sourceTree = "<group>"; };
+		DAEEF3A9FECB183E128F0E5EBD6FB373 /* WHSearch-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WHSearch-Info.plist"; sourceTree = "<group>"; };
+		DB4165226CA8A2D8F77ACA203DF2DCD1 /* WHUI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WHUI.xcconfig; sourceTree = "<group>"; };
+		E6BBA0C8A62BABF4330758C92FE37C69 /* WHUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WHUI.modulemap; sourceTree = "<group>"; };
 		E719E57416CE6C176068E96E22D711D6 /* Pods-WHApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WHApp-acknowledgements.plist"; sourceTree = "<group>"; };
-		EC9430084201B4090DBC4B2647F3B9C3 /* PanModalHeight.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PanModalHeight.swift; path = PanModal/Presentable/PanModalHeight.swift; sourceTree = "<group>"; };
-		F071D224B631C6275A5CE82B8FF7BDB0 /* WHUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WHUI-Info.plist"; sourceTree = "<group>"; };
-		F7F14D7055DB7EC694E9877E1D74C5BA /* PanModal-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PanModal-umbrella.h"; sourceTree = "<group>"; };
-		FA9E9B163C06BF19036FEDA8E4AEE5F9 /* WHSearch.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WHSearch.xcconfig; sourceTree = "<group>"; };
+		EDD981BAE0CBFB62658BB913DD04C577 /* PanModal-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PanModal-dummy.m"; sourceTree = "<group>"; };
+		EFEBDBDA09BC537E1CD674565ECDAD27 /* SearchController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = SearchController.xib; path = WHSearch/Classes/Search/SearchController.xib; sourceTree = "<group>"; };
+		F11FC8AD030934FDDB78C36C98A9DF0F /* PanModal-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PanModal-Info.plist"; sourceTree = "<group>"; };
+		F7A098685DF57C0F819FC63A69881E37 /* WHSearch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WHSearch-dummy.m"; sourceTree = "<group>"; };
+		F8308749D6A44FF3B518EB8D572DFA7D /* PanModalPresentationDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PanModalPresentationDelegate.swift; path = PanModal/Delegate/PanModalPresentationDelegate.swift; sourceTree = "<group>"; };
+		F89B20E06E3C90E934738B21BC800B44 /* PanModalPresentable+UIViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PanModalPresentable+UIViewController.swift"; path = "PanModal/Presentable/PanModalPresentable+UIViewController.swift"; sourceTree = "<group>"; };
+		FE9182070BF7809315B83290D1E0DF75 /* WHUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WHUI-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3F4D00959100164AF7CEE8EBEB74AA85 /* Frameworks */ = {
+		787A70FA9201B85838C30B1DACD3A16D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F90A55C079D266D2BE65E4EC4A702C19 /* Foundation.framework in Frameworks */,
-				843BB7F29F9D57B159A70B27F6DAB597 /* MapKit.framework in Frameworks */,
-				677643F6C13A3C476E12AD2C20D0EC19 /* PanModal.framework in Frameworks */,
-				A9A26FDA98F0FFC32C4F932C8D13A872 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7489CB12CAE49CC4CF1989AE7029A021 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DBCABF126433715D8AB9C2A98603BEAE /* Foundation.framework in Frameworks */,
-				B24F086F00AF3C82E0215860EF82B3D1 /* WHUI.framework in Frameworks */,
+				1EB35C4E7E8D2EBA4BB61C51C13AC094 /* Foundation.framework in Frameworks */,
+				D0B5D4C81D8025A06F4C68F074B4E3C9 /* WHUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,23 +167,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E895BF01DB91B19A9E1BA53FF184A7BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A561E2A96CB8B56F2C4F21C561BF2F0 /* Foundation.framework in Frameworks */,
+				D4908D4A355022889645CE26D9DE6267 /* MapKit.framework in Frameworks */,
+				4DF12D8D673EF5658A1092B888E6F001 /* PanModal.framework in Frameworks */,
+				19332C1C33D064A79C8BB87BADF38F75 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1AEE60C2A929005AB8DC174A6FE9EE41 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B8D00E1DF884A26EA349F01F2F5D95EB /* WHUI.modulemap */,
-				05C79BB00B730D7FE05A0C1A1F44CB9A /* WHUI.xcconfig */,
-				A23A7B88FE5F2691FC66EF578847A778 /* WHUI-dummy.m */,
-				F071D224B631C6275A5CE82B8FF7BDB0 /* WHUI-Info.plist */,
-				A717598B73764C5DC8908DE78026DC97 /* WHUI-prefix.pch */,
-				A127A6296EEFACAD0D900F1E305EA36A /* WHUI-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/WHUI";
-			sourceTree = "<group>";
-		};
 		25F0EEB01C9FC353D53F28461C48734C /* Pods-WHApp */ = {
 			isa = PBXGroup;
 			children = (
@@ -217,18 +209,50 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5DC2B0A4C44FDCA483B4EA11B1546BD1 /* Support Files */ = {
+		398B4ED57F5F5B81B3619BE61C4D8447 /* WHUI */ = {
 			isa = PBXGroup;
 			children = (
-				D705B089433F7B239A2548B9FE042CA5 /* PanModal.modulemap */,
-				9D3D7F89323D5A4A95F43A2B9F2414D2 /* PanModal.xcconfig */,
-				A44F6FB4FAF445CB534B383263399FDC /* PanModal-dummy.m */,
-				653F1FFBE9B2640F5C8122EA010EEDE9 /* PanModal-Info.plist */,
-				33555B0AD9F9B836FFA4D9305FA5E0DD /* PanModal-prefix.pch */,
-				F7F14D7055DB7EC694E9877E1D74C5BA /* PanModal-umbrella.h */,
+				3B347E240D439337EBCD132E3A5D57A5 /* WHButton.swift */,
+				79393F438E548131BDF07EB6D3427658 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/PanModal";
+			name = WHUI;
+			path = WHUI;
+			sourceTree = "<group>";
+		};
+		3E21E6BA89C7D8C22FF8583FC090BE3C /* WHSearch */ = {
+			isa = PBXGroup;
+			children = (
+				C20522BF737AF9430451777C81A79B7A /* SearchController.swift */,
+				EFEBDBDA09BC537E1CD674565ECDAD27 /* SearchController.xib */,
+				3C2261844840D86099B68F00354C3ABA /* SearchViewModel.swift */,
+				C4BEFEBF99B8DA60D06721B51C5BEBBA /* WHSearch.swift */,
+				A2C07C6663987620CFDF8117D1700E49 /* Support Files */,
+			);
+			name = WHSearch;
+			path = WHSearch;
+			sourceTree = "<group>";
+		};
+		3FFACEA7B97AE69A40448528E4ED5842 /* PanModal */ = {
+			isa = PBXGroup;
+			children = (
+				B90B9B107EC9E9DA4B4CFE1337CA2C82 /* DimmedView.swift */,
+				1AF45D43AFCE67E8CBAF42B695F3D7B2 /* PanContainerView.swift */,
+				43C27AB3596FC1A3ADF309D1137A3B9D /* PanModal.h */,
+				2EF2824B4FC115BBACDF74A90C3320CE /* PanModalAnimator.swift */,
+				BEC171D4896A9EBF179B2F328271F170 /* PanModalHeight.swift */,
+				9B33542C0C41209D34D6B9FF363BD14C /* PanModalPresentable.swift */,
+				27D25ACE88A2C66A9655B79BEBA1F969 /* PanModalPresentable+Defaults.swift */,
+				334F9F5D07E50391FC2CE0279E2D00AC /* PanModalPresentable+LayoutHelpers.swift */,
+				F89B20E06E3C90E934738B21BC800B44 /* PanModalPresentable+UIViewController.swift */,
+				D2DB3AF074CB38C9C96A942F60DA6B66 /* PanModalPresentationAnimator.swift */,
+				0C2E966B9714E4E30F526059533804FA /* PanModalPresentationController.swift */,
+				F8308749D6A44FF3B518EB8D572DFA7D /* PanModalPresentationDelegate.swift */,
+				5B07252219A200C3DCB8ED21DE152157 /* PanModalPresenter.swift */,
+				20193CEDC899709F02B2B22EE91ED615 /* UIViewController+PanModalPresenter.swift */,
+				6F8061DBFB23D6F3F753EED8A64D9F9A /* Support Files */,
+			);
+			name = PanModal;
+			path = PanModal;
 			sourceTree = "<group>";
 		};
 		68012E6ADCCA876E596EEA7A0326AE0B /* iOS */ = {
@@ -241,37 +265,32 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		6DE67ECD9AABBA932BD7C8D147A10247 /* PanModal */ = {
+		6F8061DBFB23D6F3F753EED8A64D9F9A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6F6E4B6A0E38D241C4F24BAE0A4E2410 /* DimmedView.swift */,
-				E2FA1CD5F932938B712BEEB90B76C368 /* PanContainerView.swift */,
-				22427FA9B1B03E6C8845EF9CF963F0B4 /* PanModal.h */,
-				670856D0CA78716B71B1AA69E6C353E8 /* PanModalAnimator.swift */,
-				EC9430084201B4090DBC4B2647F3B9C3 /* PanModalHeight.swift */,
-				C36A626BC9F364B69F9E62EA0CF892DE /* PanModalPresentable.swift */,
-				4678F3C8B060986E86969A6DD6B654EC /* PanModalPresentable+Defaults.swift */,
-				3D441305F5CE7F280FDE0BFCCF278E27 /* PanModalPresentable+LayoutHelpers.swift */,
-				89CB7ED6B81314D146CD6F42D8970EAE /* PanModalPresentable+UIViewController.swift */,
-				2CD555A8D06C2FA7610DE0A566154F1B /* PanModalPresentationAnimator.swift */,
-				4C0DF99CD5D5083942D862232EC49090 /* PanModalPresentationController.swift */,
-				D4FAE4789B68B6D1253DB3D45E43C260 /* PanModalPresentationDelegate.swift */,
-				36B0F259D688696CC4882015E8B160A3 /* PanModalPresenter.swift */,
-				2E2784DD758AE3834EF4C49FEF3C3145 /* UIViewController+PanModalPresenter.swift */,
-				5DC2B0A4C44FDCA483B4EA11B1546BD1 /* Support Files */,
+				4B4C4145EBC2A531EF1C9D403F844756 /* PanModal.modulemap */,
+				4870DECBA8C8AF5444712D46F6D2EE10 /* PanModal.xcconfig */,
+				EDD981BAE0CBFB62658BB913DD04C577 /* PanModal-dummy.m */,
+				F11FC8AD030934FDDB78C36C98A9DF0F /* PanModal-Info.plist */,
+				9A4DF193347EC64D8FCEB7C1A979C1A9 /* PanModal-prefix.pch */,
+				9C19B492D586DD77D4712618808AB813 /* PanModal-umbrella.h */,
 			);
-			name = PanModal;
-			path = PanModal;
+			name = "Support Files";
+			path = "../Target Support Files/PanModal";
 			sourceTree = "<group>";
 		};
-		81F1947F059673C9DA805502C120CA1D /* WHSearch */ = {
+		79393F438E548131BDF07EB6D3427658 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3BD8A45A9443A48E709C35306341D6F9 /* WHSearch.swift */,
-				B9C77A1234A39BF1EEB368A1EEEA2688 /* Support Files */,
+				E6BBA0C8A62BABF4330758C92FE37C69 /* WHUI.modulemap */,
+				DB4165226CA8A2D8F77ACA203DF2DCD1 /* WHUI.xcconfig */,
+				608DEB23E391606374513E6371FEF2C7 /* WHUI-dummy.m */,
+				09DA1A5DE87444D169D7D6E6A0FB8D85 /* WHUI-Info.plist */,
+				08D1BC0CE77B400703B353EEE16F1239 /* WHUI-prefix.pch */,
+				FE9182070BF7809315B83290D1E0DF75 /* WHUI-umbrella.h */,
 			);
-			name = WHSearch;
-			path = WHSearch;
+			name = "Support Files";
+			path = "../Target Support Files/WHUI";
 			sourceTree = "<group>";
 		};
 		82C155EF03309FAF7361AE5B994268F5 /* Frameworks */ = {
@@ -284,16 +303,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		8CDF7B40EC1DA077B87ED69E778ADF3D /* WHUI */ = {
-			isa = PBXGroup;
-			children = (
-				1F384DB01AE4DA5E8CF5B754C05416A1 /* WHButton.swift */,
-				1AEE60C2A929005AB8DC174A6FE9EE41 /* Support Files */,
-			);
-			name = WHUI;
-			path = WHUI;
-			sourceTree = "<group>";
-		};
 		9948BF10C10E20397D66B9BFC443CC28 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -302,15 +311,15 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B9C77A1234A39BF1EEB368A1EEEA2688 /* Support Files */ = {
+		A2C07C6663987620CFDF8117D1700E49 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A195E9B290363B9893385CA4C102E442 /* WHSearch.modulemap */,
-				FA9E9B163C06BF19036FEDA8E4AEE5F9 /* WHSearch.xcconfig */,
-				B6ED439FE50639F643FD1EF9D452EE37 /* WHSearch-dummy.m */,
-				3F1D69356E16F31F01BA41B61951E8E7 /* WHSearch-Info.plist */,
-				BC89DC8A87AA5B3861909BC46C2F3176 /* WHSearch-prefix.pch */,
-				99E2BDA5B1EAFD6C57B041D122D047E8 /* WHSearch-umbrella.h */,
+				6196B64CC2EDC3A2E839B541A95F795E /* WHSearch.modulemap */,
+				631832532890027A42DE9DAEA85D49C4 /* WHSearch.xcconfig */,
+				F7A098685DF57C0F819FC63A69881E37 /* WHSearch-dummy.m */,
+				DAEEF3A9FECB183E128F0E5EBD6FB373 /* WHSearch-Info.plist */,
+				7B883FAF097E1F10614A619B68361AC1 /* WHSearch-prefix.pch */,
+				6CAEFE03CCBB3A447A6ADB7B9515F371 /* WHSearch-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/WHSearch";
@@ -321,18 +330,18 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				82C155EF03309FAF7361AE5B994268F5 /* Frameworks */,
-				F11F28D0222474C4AEC852FCEC7D5E0D /* Pods */,
+				F7AAA1F8A109B329286AE8AD0EBEDCA6 /* Pods */,
 				352616D5C0E5099732E0F883FCCCC8FC /* Products */,
 				9948BF10C10E20397D66B9BFC443CC28 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		F11F28D0222474C4AEC852FCEC7D5E0D /* Pods */ = {
+		F7AAA1F8A109B329286AE8AD0EBEDCA6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6DE67ECD9AABBA932BD7C8D147A10247 /* PanModal */,
-				81F1947F059673C9DA805502C120CA1D /* WHSearch */,
-				8CDF7B40EC1DA077B87ED69E778ADF3D /* WHUI */,
+				3FFACEA7B97AE69A40448528E4ED5842 /* PanModal */,
+				3E21E6BA89C7D8C22FF8583FC090BE3C /* WHSearch */,
+				398B4ED57F5F5B81B3619BE61C4D8447 /* WHUI */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -340,11 +349,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		466E192ECF187DB9B8DBCECBD75FE989 /* Headers */ = {
+		40E9DCBA5A4A2F05A93604E65EC0C975 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCDCFECA6BA48B8EC6AAE0C6976931C7 /* WHUI-umbrella.h in Headers */,
+				A12DCE0CA7CBDAF9C660FD735B2A8CBA /* WHUI-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,11 +374,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C3B1E56459FE33273ECD8822F8FD22F5 /* Headers */ = {
+		E4976E42DAE3F86343B2AF580825CEAD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BEB80C051F3E853A46266D8774F3547 /* WHSearch-umbrella.h in Headers */,
+				1E30D55BDA3972780D290EDBDC97ABEA /* WHSearch-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,17 +387,17 @@
 /* Begin PBXNativeTarget section */
 		322000C73F55E05AB1F9F7C2C7D7DB2C /* WHSearch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CC7278433F053A7E53CEC4663674C115 /* Build configuration list for PBXNativeTarget "WHSearch" */;
+			buildConfigurationList = 3D58A557359104179351BB5EF90F84DF /* Build configuration list for PBXNativeTarget "WHSearch" */;
 			buildPhases = (
-				C3B1E56459FE33273ECD8822F8FD22F5 /* Headers */,
-				3837E04FC48C857FE98DADED068C39AA /* Sources */,
-				7489CB12CAE49CC4CF1989AE7029A021 /* Frameworks */,
-				C45EFD096D8E94F4AC99343E94805F37 /* Resources */,
+				E4976E42DAE3F86343B2AF580825CEAD /* Headers */,
+				43072B66D5AE975B75673CC3DA035EC5 /* Sources */,
+				787A70FA9201B85838C30B1DACD3A16D /* Frameworks */,
+				626C1CE66E4B30D2B60899FE82BE4A4D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				571FE619F87C616688EED2D6D1F60948 /* PBXTargetDependency */,
+				FED97D2A4435C4EDF29CEC2D05C85BFC /* PBXTargetDependency */,
 			);
 			name = WHSearch;
 			productName = WHSearch;
@@ -397,17 +406,17 @@
 		};
 		9AEE194486615C2E505B55C0252357A3 /* WHUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 627ECCDE05ED1C61146CBFC473AF184A /* Build configuration list for PBXNativeTarget "WHUI" */;
+			buildConfigurationList = B7DB25DB5866FF4AB3C4F72FBF7A2EE1 /* Build configuration list for PBXNativeTarget "WHUI" */;
 			buildPhases = (
-				466E192ECF187DB9B8DBCECBD75FE989 /* Headers */,
-				3D9678A2FA237F1166BC5A33765B9C38 /* Sources */,
-				3F4D00959100164AF7CEE8EBEB74AA85 /* Frameworks */,
-				70B5ECF8ADA854F6DD675F329087E66D /* Resources */,
+				40E9DCBA5A4A2F05A93604E65EC0C975 /* Headers */,
+				1C29F68B650DFFB54D0620DA39A853B4 /* Sources */,
+				E895BF01DB91B19A9E1BA53FF184A7BB /* Frameworks */,
+				4571C388E0C6274F4D1F745A9267981C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0383FB00D3735106199C8F7628337337 /* PBXTargetDependency */,
+				807AD57C3D0A54B5F6614F0353B8E8EC /* PBXTargetDependency */,
 			);
 			name = WHUI;
 			productName = WHUI;
@@ -491,7 +500,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		70B5ECF8ADA854F6DD675F329087E66D /* Resources */ = {
+		4571C388E0C6274F4D1F745A9267981C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		626C1CE66E4B30D2B60899FE82BE4A4D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -505,16 +521,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C45EFD096D8E94F4AC99343E94805F37 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1C29F68B650DFFB54D0620DA39A853B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC4231E66A02743F0C77BF63097A8F95 /* WHButton.swift in Sources */,
+				B23248AB4C24BAABD34694F6448F5253 /* WHUI-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		31144596332566063C58C90AE5B48F14 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -523,21 +541,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3837E04FC48C857FE98DADED068C39AA /* Sources */ = {
+		43072B66D5AE975B75673CC3DA035EC5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				711486B0AF59580C2D2FB31680A2B172 /* WHSearch-dummy.m in Sources */,
-				5F993C908F6B53E426292A981F1BDE5F /* WHSearch.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3D9678A2FA237F1166BC5A33765B9C38 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CE268B0C951B2E28603EFA7C853FF0F2 /* WHButton.swift in Sources */,
-				E4A155872BC1A8DA89FD263D15FCC394 /* WHUI-dummy.m in Sources */,
+				47FC0E97D67D93F913A9E7B4DD16A95E /* SearchController.swift in Sources */,
+				521E3F514A0BA67256A38EEBFCD8B479 /* SearchController.xib in Sources */,
+				A4026F8AADCB710B99C422653E836091 /* SearchViewModel.swift in Sources */,
+				D9F75A106975A1C3998B8BC45A655D51 /* WHSearch-dummy.m in Sources */,
+				D0D90208A23F57E86A84169F0139A49A /* WHSearch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -565,12 +577,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0383FB00D3735106199C8F7628337337 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = PanModal;
-			target = AD16B149CC82594F15860A512FDBB6B9 /* PanModal */;
-			targetProxy = A235189CD3D42CDF8F367B8CB536C885 /* PBXContainerItemProxy */;
-		};
 		0C467890DDBEA1FDA3C591FB95C2118C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = WHUI;
@@ -583,24 +589,30 @@
 			target = 322000C73F55E05AB1F9F7C2C7D7DB2C /* WHSearch */;
 			targetProxy = 06FD9B0B6144A0A580898BDC70F2701F /* PBXContainerItemProxy */;
 		};
-		571FE619F87C616688EED2D6D1F60948 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = WHUI;
-			target = 9AEE194486615C2E505B55C0252357A3 /* WHUI */;
-			targetProxy = B76D84730ECCAA3BCE50CB2AE9737FA6 /* PBXContainerItemProxy */;
-		};
 		76221D4968EC83133B93119A04E51852 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PanModal;
 			target = AD16B149CC82594F15860A512FDBB6B9 /* PanModal */;
 			targetProxy = D8562C3A7BE0969896FED8D955CE263D /* PBXContainerItemProxy */;
 		};
+		807AD57C3D0A54B5F6614F0353B8E8EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PanModal;
+			target = AD16B149CC82594F15860A512FDBB6B9 /* PanModal */;
+			targetProxy = 317D6780483BB3CBE5E3CCC0998871DF /* PBXContainerItemProxy */;
+		};
+		FED97D2A4435C4EDF29CEC2D05C85BFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WHUI;
+			target = 9AEE194486615C2E505B55C0252357A3 /* WHUI */;
+			targetProxy = 67CFEF9D31ABA4973D78BD0122E08CFD /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0D1FB2CC781096DA9CED1086DB1144E9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D3D7F89323D5A4A95F43A2B9F2414D2 /* PanModal.xcconfig */;
+			baseConfigurationReference = 4870DECBA8C8AF5444712D46F6D2EE10 /* PanModal.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -635,9 +647,9 @@
 			};
 			name = Release;
 		};
-		4107C255280DD3E591F1073173D12C1C /* Debug */ = {
+		3EEEAF1EA792C8D75A1F2E5F5467C124 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 05C79BB00B730D7FE05A0C1A1F44CB9A /* WHUI.xcconfig */;
+			baseConfigurationReference = DB4165226CA8A2D8F77ACA203DF2DCD1 /* WHUI.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -666,10 +678,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.1.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		46306B039BD284844E325C3EA39ACEE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -708,6 +721,43 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		5CD30E92BC509385AAE52904C4B82CC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 631832532890027A42DE9DAEA85D49C4 /* WHSearch.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WHSearch/WHSearch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WHSearch/WHSearch-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/WHSearch/WHSearch.modulemap";
+				PRODUCT_MODULE_NAME = WHSearch;
+				PRODUCT_NAME = WHSearch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		6410F571BA8C1AEC6A19403F1B61B0B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -812,6 +862,42 @@
 			};
 			name = Release;
 		};
+		89E7D787E38DC54D3B17A1FF60CBE5E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB4165226CA8A2D8F77ACA203DF2DCD1 /* WHUI.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WHUI/WHUI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WHUI/WHUI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/WHUI/WHUI.modulemap";
+				PRODUCT_MODULE_NAME = WHUI;
+				PRODUCT_NAME = WHUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		A27713CB74E99AF202AADC23200A32F4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -874,7 +960,7 @@
 		};
 		BE73CC1A053F5210D209201C589096EF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D3D7F89323D5A4A95F43A2B9F2414D2 /* PanModal.xcconfig */;
+			baseConfigurationReference = 4870DECBA8C8AF5444712D46F6D2EE10 /* PanModal.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -908,46 +994,9 @@
 			};
 			name = Debug;
 		};
-		C796140BFFD5D58122ACEC32739FAF88 /* Release */ = {
+		EB42686948B520317E28C835038C898E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA9E9B163C06BF19036FEDA8E4AEE5F9 /* WHSearch.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WHSearch/WHSearch-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WHSearch/WHSearch-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/WHSearch/WHSearch.modulemap";
-				PRODUCT_MODULE_NAME = WHSearch;
-				PRODUCT_NAME = WHSearch;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.1.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E0C3D693BEA0307A68285F3B85CD57E6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA9E9B163C06BF19036FEDA8E4AEE5F9 /* WHSearch.xcconfig */;
+			baseConfigurationReference = 631832532890027A42DE9DAEA85D49C4 /* WHSearch.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -981,60 +1030,23 @@
 			};
 			name = Debug;
 		};
-		E5A9BFB60709C8E4EA4B9753F78D9A3F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 05C79BB00B730D7FE05A0C1A1F44CB9A /* WHUI.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WHUI/WHUI-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WHUI/WHUI-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/WHUI/WHUI.modulemap";
-				PRODUCT_MODULE_NAME = WHUI;
-				PRODUCT_NAME = WHUI;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.1.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3D58A557359104179351BB5EF90F84DF /* Build configuration list for PBXNativeTarget "WHSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB42686948B520317E28C835038C898E /* Debug */,
+				5CD30E92BC509385AAE52904C4B82CC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6410F571BA8C1AEC6A19403F1B61B0B5 /* Debug */,
 				A27713CB74E99AF202AADC23200A32F4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		627ECCDE05ED1C61146CBFC473AF184A /* Build configuration list for PBXNativeTarget "WHUI" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4107C255280DD3E591F1073173D12C1C /* Debug */,
-				E5A9BFB60709C8E4EA4B9753F78D9A3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1048,11 +1060,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CC7278433F053A7E53CEC4663674C115 /* Build configuration list for PBXNativeTarget "WHSearch" */ = {
+		B7DB25DB5866FF4AB3C4F72FBF7A2EE1 /* Build configuration list for PBXNativeTarget "WHUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E0C3D693BEA0307A68285F3B85CD57E6 /* Debug */,
-				C796140BFFD5D58122ACEC32739FAF88 /* Release */,
+				89E7D787E38DC54D3B17A1FF60CBE5E8 /* Debug */,
+				3EEEAF1EA792C8D75A1F2E5F5467C124 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
